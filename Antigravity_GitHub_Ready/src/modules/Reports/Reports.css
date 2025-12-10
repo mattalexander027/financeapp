@@ -1,0 +1,76 @@
+.reports-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.reports-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.report-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+}
+
+.report-section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.balance-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+}
+
+.balance-row.total {
+    font-weight: 700;
+    font-size: 1rem;
+    border-top: 1px dashed var(--border-subtle);
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+
+.balance-row.subtotal {
+    font-weight: 600;
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+    /* subtle highlight */
+    padding: 0.5rem;
+    border-radius: var(--radius-sm);
+    margin: 0.25rem 0;
+}
+
+.aging-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.aging-table th,
+.aging-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.aging-table th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.aging-bucket {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+}
