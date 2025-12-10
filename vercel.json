@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "buildCommand": "cd FINAL_DEPLOY_READY && npm install && npm run build",
+  "outputDirectory": "FINAL_DEPLOY_READY/dist",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD"
+}
